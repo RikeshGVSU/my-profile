@@ -1,0 +1,15 @@
+.summary {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+
+  .summary-text {
+    max-width: 800px;
+    background-color: #f2e5dc;
+    padding: 1.5rem;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: center;
+  }
+}

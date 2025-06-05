@@ -1,0 +1,52 @@
+.education {
+  padding: 2rem;
+
+  .section-title {
+    font-size: 1.8rem;
+    background: black;
+    color: white;
+    padding: 0.75rem 1rem;
+    border-radius: 20px;
+    width: fit-content;
+    margin-bottom: 1.5rem;
+  }
+
+  .edu-full {
+    margin-bottom: 2rem;
+
+    .edu-card {
+      background: #f2e5dc;
+      border-radius: 20px;
+      padding: 1rem;
+      box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+    }
+  }
+
+  .edu-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+
+    .edu-card {
+      background: #f2e5dc;
+      border-radius: 20px;
+      padding: 1rem;
+      box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+
+      h3 {
+        margin-top: 0;
+        font-size: 1.2rem;
+        font-weight: 600;
+      }
+
+      p {
+        margin: 0.3rem 0;
+        line-height: 1.5;
+      }
+    }
+  }
+}
